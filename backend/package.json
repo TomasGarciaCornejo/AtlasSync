@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon --exec ts-node src/app.ts",
     "start": "node dist/app.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,22 +13,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "morgan": "^1.10.1"
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "helmet": "8.1.0",
+    "morgan": "1.10.1"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.3",
-    "@types/helmet": "^0.0.48",
-    "@types/morgan": "^1.9.10",
-    "@types/node": "^24.6.2",
-    "@typescript-eslint/eslint-plugin": "^8.45.0",
-    "@typescript-eslint/parser": "^8.45.0",
-    "eslint": "^9.36.0",
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "@types/cors": "2.8.19",
+    "@types/express": "5.0.3",
+    "@types/helmet": "0.0.48",
+    "@types/morgan": "1.9.10",
+    "@types/node": "24.6.2",
+    "@typescript-eslint/eslint-plugin": "8.45.0",
+    "@typescript-eslint/parser": "8.45.0",
+    "eslint": "9.36.0",
+    "nodemon": "3.1.10",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
   }
 }
